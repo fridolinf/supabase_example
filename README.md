@@ -6,7 +6,7 @@
 
 [![FLUTTER](https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.png)](https://flutter.dev/)
 
-[![GETX](https://blog.kakaocdn.net/dn/tTJsy/btraPuKSP5Y/34aELwuQ5eWBta1trRneU1/img.png)](https://pub.dev/packages/get_cli)
+[![GETX](https://blog.kakaocdn.net/dn/tTJsy/btraPuKSP5Y/34aELwuQ5eWBta1trRneU1/img.png)](https://pub.dev/packages/get)
 
 ## Features
 
