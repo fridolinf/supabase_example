@@ -2,13 +2,10 @@
 
 ## Tech Stack
 
-[SUPABASE](https://supabase.com/)
 [![SUPABASE](https://getlogo.net/wp-content/uploads/2020/11/supabase-logo-vector.png)](https://supabase.com/)
 
-[FLUTTER](https://flutter.dev/)
 [![FLUTTER](https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.png)](https://flutter.dev/)
 
-[GET X CLI](https://pub.dev/packages/get_cli)
 [![GETX](https://blog.kakaocdn.net/dn/tTJsy/btraPuKSP5Y/34aELwuQ5eWBta1trRneU1/img.png)](https://pub.dev/packages/get_cli)
 
 ## Features
