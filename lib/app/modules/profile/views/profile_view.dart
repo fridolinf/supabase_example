@@ -81,6 +81,7 @@ class ProfileView extends GetView<ProfileController> {
                             if (controller.nameC.text ==
                                     controller.nameC2.text &&
                                 controller.passwordC.text.isEmpty) {
+                              // Check if user have same name and not want to change password but they click the button
                               Get.snackbar("Info", "There is no data to update",
                                   borderWidth: 1,
                                   borderColor: Colors.white,

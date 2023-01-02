@@ -6,7 +6,7 @@ import 'package:supabase_example/app/modules/home/controllers/home_controller.da
 import '../controllers/add_note_controller.dart';
 
 class AddNoteView extends GetView<AddNoteController> {
-  HomeController homeC = Get.find();
+  HomeController homeC = Get.find(); // get controller from another controller
   @override
   Widget build(BuildContext context) {
     return Scaffold(

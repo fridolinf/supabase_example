@@ -12,9 +12,9 @@ class HomeController extends GetxController {
         .select("id")
         .match({"uid": client.auth.currentUser!.id});
     Map<String, dynamic> user = (res).first as Map<String, dynamic>;
-    int id = user["id"];
+    int id = user["id"]; //get user id before get all notes data
     var notes = await client.from("notes").select().match(
-      {"user_id": id},
+      {"user_id": id}, //get all notes data with match user id
     );
     List<Notes> notesData = Notes.fromJsonList((notes as List));
     allNotes(notesData);

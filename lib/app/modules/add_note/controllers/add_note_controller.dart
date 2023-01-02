@@ -17,9 +17,9 @@ class AddNoteController extends GetxController {
           .select("id")
           .match({"uid": client.auth.currentUser!.id});
       Map<String, dynamic> user = (res).first as Map<String, dynamic>;
-      int id = user["id"];
+      int id = user["id"]; //get and match user id before insert to db
       await client.from("notes").insert({
-        "user_id": id,
+        "user_id": id, //insert data with user id as foreign key
         "title": titleC.text,
         "description": descC.text,
         "created_at": DateTime.now().toIso8601String(),

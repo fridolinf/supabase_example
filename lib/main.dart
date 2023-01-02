@@ -8,13 +8,11 @@ import 'app/routes/app_pages.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // await dotenv.load(fileName: ".env"); //path to your .env file);
-  await dotenv.load();
+  await dotenv.load(); //wait load env
 
-  String supaUri = dotenv.get('SUPABASE_URL');
+  String supaUri = dotenv.get('SUPABASE_URL'); //get env key
   String supaAnon = dotenv.get('SUPABASE_ANONKEY');
-  // print(foo.toString() + "123");
-  // print(foo.runtimeType.toString() + "123");
+
   Supabase supaProvider = await Supabase.initialize(
     url: supaUri,
     anonKey: supaAnon,
