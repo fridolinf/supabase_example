@@ -56,6 +56,20 @@ Install dependencies
   flutter pub get
 ```
 
+## DB Schema
+- Table
+
+![image](https://github.com/fridolinf/supabase_example/assets/50565864/95a57658-32d1-4118-b7be-2d63e814fe30)
+
+- Notes Table
+
+![image](https://github.com/fridolinf/supabase_example/assets/50565864/7c6ee9d6-d3e0-4f29-9abc-387dfc99cbc2)
+
+- Users Table
+
+![image](https://github.com/fridolinf/supabase_example/assets/50565864/147414ab-e3c9-456c-a51a-a25a1ad2b9fd)
+
+
 Run without debug
 
 - Windows user
